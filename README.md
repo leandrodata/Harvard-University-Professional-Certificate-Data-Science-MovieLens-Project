@@ -1,4 +1,4 @@
-#HarvardX9---Capstone-Project
+# HarvardX9---Capstone-Project
 
 This is the capstone project presented to Harvard University Professional Certificate course on Data Science, lead by Professor Rafael A. Irizarry.
 
@@ -7,13 +7,13 @@ The goal of this project is to create a movie recommendation system to predict m
 The key steps that were performed included Exploratory Data Analysis (EDA), data visualization, data wrangling and training the machine learning algorithm,
 using the inputs in one subset to predict movie ratings in the validation set.
 
-#Historic Context
+## Historic Context
 
 The recommendation system presented at the HarvardX course went through some of the data analysis strategies used by the winning team of the 2006 "Netflix Challenge", 
 when the company challenged the data science community to improve its recommendation algorithm by 10%. The winner would get a million dollars prize. 
 In September 2009, the winners were announced.
 
-#Dataset description
+## Dataset description
 
 The data set version of MovieLens used in this report, the 10M version of the original data set, is a small subset of a much larger set with millions of ratings, 
 in order to make the computation faster.
@@ -24,17 +24,16 @@ for over 27,000 movies by more than 138,000 users.
 HarvardX and Professor Rafael A. Irizarry made a small subset of this data via the dslabs package containing 9,000,055 observations of 6 variables, 
 where each row represents a rating given by one user to one movie.
 
-# Methods and Analysis
+## Methods and Analysis
 
-Initially, we have to create a test set using the createDataPartition function of the Caret package to make possible to assess the accuracy of the model we'll create. 
-In this project, 10% of the data is assign to the test set and 90% to the train set.
+Initially, we have to create a test set using the **createDataPartition** function of the Caret package to make possible to assess the accuracy of the model we'll create. In this project, 10% of the data is assign to the test set and 90% to the train set.
 
-#Residual Mean Squared Error (RMSE)
+## Residual Mean Squared Error (RMSE)
 
 A Part important of this project is to provide the RMSE using only the training set (edx), and experimenting with multiple parameters. 
 That strategy follows the Netflix challenge winning project that based their work on the residual mean squared error (RMSE) on the test set.
 
-#Results
+## Results
 
 The base model assumes the same rating for all movies and doesn't achieve a good enough result: 
 its RMSE is more than 1, or in other words, an error of an entire star! To improve this result we added an 'effect' (or bias) 
