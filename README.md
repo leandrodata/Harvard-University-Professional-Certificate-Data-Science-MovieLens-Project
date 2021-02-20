@@ -1,6 +1,6 @@
 ## HarvardX9---Capstone-Project
 
-This is the Capstone Project presented to Harvard University Professional Certificate course on Data Science, lead by Professor Rafael A. Irizarry on EdX platform.
+This is the Capstone Project presented at Harvard University online "Professional Certificate" course on Data Science, lead by Professor Rafael A. Irizarry on EdX platform.
 
 The goal of this project was to create a *movie recommendation system* to predict movie ratings using the MovieLens data set. 
 
